@@ -1,5 +1,5 @@
 ## DesignPattern
-![建模样例图](https://raw.codehub.cn/p/promote/d/DesignPatternLearning/git/raw/master/images/uml_demo.png?token=X5b1G6KsDdV0VBszcfedzHt22FGfCPvBYqXpIPnGaK&download=true)
+![建模样例图](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/uml_demo.png)
 
 ### 1.简单工厂模式
 `根据不同类型，创建不同的对象（基于一个基类）`
@@ -79,10 +79,10 @@
 优点：静态代理模式在不改变目标对象的前提下，实现了对目标对象的功能扩展。
 缺点：静态代理实现了目标对象的所有方法，一旦目标接口增加方法，代理对象和目标对象都要进行相应的修改，增加维护成本。
 ```
-![静态代理a](https://struggling119.coding.net/p/promote/d/DesignPatternLearning/git/tree/master/images/proxy_s_1.png)
-![静态代理b](https://raw.codehub.cn/p/promote/d/DesignPatternLearning/git/raw/master/images/proxy_s_2.png?token=gSmvKs8D48XZrFvHRl0c9aGGXaoUbcg6gf46ZSQ5lm&download=true)
+![静态代理a](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/proxy_s_1.png)
+![静态代理b](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/proxy_s_2.png)
 #### 动态代理
-![动态代理a](/images/proxy_d_1.png)
+![动态代理a](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/proxy_d_1.png)
 ```
 a.JDK动态代理对象不需要实现接口，只有目标对象需要实现接口。
 b.实现基于接口的动态代理需要利用JDK中的API，在JVM内存中动态的构建Proxy对象。
@@ -191,8 +191,8 @@ c.InvocationHandler h：事件处理，执行目标对象的方法时，会触�
 合成/聚合复用原则的好处：优先使用对象的合成/聚合将有助你保持每个类被封装，并被集中在单个任务上。这样类和类继承层次
 会保持较小规模，并且不太可能增长为不可控制的庞然大物（多层继承）
 ```
-![聚合前设计](https://struggling119.coding.net/p/promote/d/DesignPatternLearning/git/tree/master/images/bridge_a.png)
-![聚合后设计](https://struggling119.coding.net/p/promote/d/DesignPatternLearning/git/tree/master/images/bridge_b.png)
+![聚合前设计](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/bridge_a.png)
+![聚合后设计](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/bridge_b.png)
 
 ### 23.命令模式
 ```
@@ -217,7 +217,7 @@ c.InvocationHandler h：事件处理，执行目标对象的方法时，会触�
 ——享元模式可以避免大量非常相似类的开销。在需要大量细粒度的类实例来实现业务时，如果发现这些实例除了几个参数（数据）不同外，
 其他结构基本相同，这时就可以考虑使用享元模式
 ```
-![](https://struggling119.coding.net/p/promote/d/DesignPatternLearning/git/tree/master/images/flyweight.png)
+![](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/flyweight.png)
 
 
 ## 后两种模式，可以简单理解为多用封装，实现开放-封闭原则就行，不用过多理解。
@@ -242,4 +242,4 @@ c.InvocationHandler h：事件处理，执行目标对象的方法时，会触�
 只适合结构稳定不变的情况：如上，人按性别分只能分男、女【很少用】
 ```
 
-![](https://struggling119.coding.net/p/promote/d/DesignPatternLearning/git/tree/master/images/design_all.png)
+![](https://github.com/ZeroMoment/DesignPatternLearning/raw/master/images/design_all.png)
